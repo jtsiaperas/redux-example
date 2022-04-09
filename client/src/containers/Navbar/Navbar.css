@@ -1,0 +1,48 @@
+.NavHeader {
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  height: 1%;
+  max-height: 1%;
+  /* background: url('../../background.png') no-repeat fixed; */
+}
+
+.navbar-header{
+  height: 50px;
+}
+
+.Header {
+  z-index: 10;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.Header .NavBk {
+  border-radius: 4px;
+}
+
+.Header a {
+  margin-left: .7em;
+  font-weight: 700
+}
+
+.Header .addBtn,
+.Header button[class='navbar-toggler'] {
+  margin-right: 0.8em;
+  color: black;
+}
+
+.Navs{
+  position: absolute;
+  right: 1em;
+  float: right;
+}
+
+.Header .addBtn input,
+.Header .addBtn button {
+  font-size: 0.91em
+}
+
+.Header nav button[class*='add'] {
+  width: 6em
+}
